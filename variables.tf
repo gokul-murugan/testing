@@ -1,3 +1,5 @@
+# Variables
+
 variable "rg_name" {
   description = "RG name"
   type        = string

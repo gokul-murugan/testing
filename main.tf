@@ -5,6 +5,7 @@ provider "azurerm" {
   #authentication
 }
 
+# Modules
 module "firstrg" {
   source      = "../modules/rg"
   rg_name     = var.rg_name

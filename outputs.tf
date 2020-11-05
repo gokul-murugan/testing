@@ -2,4 +2,5 @@
 
 output "rg" {
   value = module.firstrg.rg
+  description = "Resource group"
 }
